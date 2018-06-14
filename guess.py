@@ -1,4 +1,3 @@
-#This is a guessing number game
 import random
 
 print("Hello, what is your name?")
@@ -16,7 +15,7 @@ for GuessesTaken in range (1, 7):
     elif guess > secretNumber:
         print('Your guess is too high.')
     else:
-        break #This condition is for the correct guess!
+        break
 
 if guess == secretNumber:
     print('Good job, ' + TheirName + '! You guessed my number in ' + str(GuessesTaken) + ' guesses.')
